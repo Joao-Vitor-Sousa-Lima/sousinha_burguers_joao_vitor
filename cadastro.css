@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: black;
+    height:  120px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 60px;
+}
+
+
+#btninicio {
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border: solid 1px white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+    
+}
+
+#btninicio a{
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive;   
+}
+
+#frase1 {
+    text-align: center;
+    font-family: "Gluten", cursive;
+    font-size: 30px;
+    padding-top: 10px;
+    grid-row: 1;
+
+}
+
+#nome p{
+    color: black;
+    font-family: "Gluten", cursive;
+    font-size: 35px;
+    opacity: 30%;
+    padding-top: 60px;
+    padding-left: 140px;
+
+}
+
+main{
+    padding: 40px;
+    padding-top: 30px;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    display: grid;
+}
+#nome input{
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gluten", cursive;
+    opacity: 40%;
+}
+
+#cpf p{
+    color: black;
+    font-family: "Gluten", cursive;
+    font-size: 35px;
+    opacity: 30%;
+    padding-top: 60px;
+    padding-left: 140px;
+    display: flex ;
+}
+
+#cpf input{
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gluten", cursive;
+    opacity: 40%;
+    display: flex;
+}
+
+#email p{
+    color: black;
+    font-family: "Gluten", cursive;
+    font-size: 35px;
+    opacity: 30%;
+    padding-top: 60px;
+    padding-left: 140px;
+}
+
+#email input{
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gluten", cursive;
+    opacity: 40%;
+    display: flex;
+}
+
+#endereco p{
+    color: black;
+    font-family: "Gluten", cursive;
+    font-size: 35px;
+    opacity: 30%;
+    padding-top: 60px;
+    padding-left: 140px;
+    display: grid;
+    grid-row: 4;
+}
+
+#endereco input{
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gluten", cursive;
+    opacity: 40%;
+    display: flex;
+}
+
+#telefone input{
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gluten", cursive;
+    opacity: 40%;
+    display: flex;
+}
+#telefone p{
+    color: black;
+    font-family: "Gluten", cursive;
+    font-size: 35px;
+    opacity: 30%;
+    padding-top: 60px;
+    padding-left: 140px;
+    display: grid;
+    grid-row: 4; 
+}
+
+#Login a{
+    background-color: black;
+  color: red;
+    border-radius: 40px;
+    display: grid;
+    grid-row: 3;
+    text-decoration: none;
+    height: 70px;
+    width: 150px;
+    font-size: 30px;
+    align-items: center;
+    grid-column: 2;
+    font-family: "Gluten", cursive; 
+}

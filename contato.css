@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height:  120px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 60px;
+    
+}
+
+#btninicio{
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border: solid 1px white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+    
+}
+#btninicio a{
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+    
+}
+
+main h1{
+    color: red;
+    text-align: center;
+    font-size:54px;
+    font-family: "Gluten", cursive;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+#imagenscontato{
+    padding-left: 600px;
+    height: 200px;
+    width: 500px;
+}
+
+#W svg{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#obrigado h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Give You Glory", cursive;
+    
+}
+
+#obrigado p{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Give You Glory", cursive;
+}
+
+#W p{
+    display: inline-block;
+    font-family: "Give You Glory", cursive;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+
+#I svg{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#I p{
+    display: inline-block;
+    font-family: "Give You Glory", cursive;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+#T svg{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#T{
+    display: flex;
+    font-family: "Give You Glory", cursive;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+    
+
+}
+
+#telefone2 svg{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#telefone2{
+    display: flex;
+    font-family: "Give You Glory", cursive;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: black;
+    height:  120px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 60px;
+}
+
+
+#btninicio {
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border: solid 1px white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+    
+}
+
+#btninicio a{
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+}
+
+
+#subtotal2{
+    background-color: black;
+    font-family: "Gluten", cursive;
+    color: white;
+    font-size: 25px;
+    height: 70px;
+    align-items: center;
+    width: 280px;
+   text-align: center;
+   padding: 30px;
+   padding-top: 30px;
+   grid-row: 1;
+}
+
+#Total2{
+    background-color: black;
+    font-family: "Gluten", cursive;
+    color: white;
+    font-size: 25px;
+    height: 70px;
+    align-items: center;
+    width: 280px;
+   text-align: center;
+   padding: 30px;
+   padding-top: 50px;
+   grid-row: 2;
+}
+
+main{
+    padding: 50px;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 200px 200px 400px;
+    display: grid;
+}
+
+#pagar{
+    background-color: black;
+    font-family: "Gluten", cursive;
+    color: white;
+    font-size: 40px;
+    height: 70px;
+   
+    width: 280px;
+   text-align: center;
+   padding: 50px;
+   padding-top: 70px;
+   border-radius: 40px;
+   grid-row: 3;
+}
+
+#desenho{
+    
+    height: 100%;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: black;
+    height:  120px;
+    width: 100%;
+    color: red;
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 70px ;
+}
+
+header h2{
+    font-size: 20px ;
+}
+
+main{
+    display: grid;
+    grid-template-columns:  4fr 4fr 4fr;
+    grid-template-rows: 3fr 1fr 3fr 1fr;
+    border: solid 2px black;
+    height: 850px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 130px;
+}
+
+
+
+#logo img{ 
+    border: solid black 0.5px;
+    height: 330px;
+    width: 340px;
+    border-radius: 90px;
+    
+    
+}
+
+#quemsomos{
+    display:grid ;
+    grid-row: 2;
+    padding-left: 80px;
+    color: red;
+    padding-top: 10px;
+    font-family: "Gluten", cursive;
+}
+
+#sushi1 img{ 
+    border: solid black 0.5px;
+    height: 330px;
+    width: 320px;
+    border-radius: 90px;
+    padding: 100px;
+    
+}
+
+#menu {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 125px;
+    color: red;
+    padding-top: 10px;
+    font-family: "Gluten", cursive;
+}
+
+#imgtelefone img{ 
+    border: solid black 0.5px;
+    height: 330px;
+    width: 340px;
+    border-radius: 90px;
+    padding: 100px;
+    
+}
+
+#contato {
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    padding-left: 110px;
+    color: red;
+    padding-top: 10px;
+    font-family: "Gluten", cursive;
+}
+
+#imgcadastro img{ 
+    border: solid black 0.5px;
+    height: 330px;
+    width: 340px;
+    border-radius: 90px;
+    padding: 100px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    
+}
+
+#cadastro{
+    display:grid ;
+    grid-row: 4;
+    grid-column: 1;
+    padding-left: 100px;
+    color: red;
+    padding-top: 10px;
+    font-family: "Gluten", cursive;
+}
+
+#imgcarrinho img{ 
+    border: solid black 0.5px;
+    height: 330px;
+    width: 340px;
+    border-radius: 90px;
+    padding: 100px;
+    display: grid;
+    grid-row: 3;
+    
+}
+
+#carrinho{
+    display:grid ;
+    grid-row: 4;
+    grid-column: 2;
+    padding-left: 110px;
+    color: red;
+    padding-top: 10px;
+    font-family: "Gluten", cursive;
+}
+
+#imgpagamentos img{ 
+    border: solid black 0.5px;
+    height: 330px;
+    width: 340px;
+    border-radius: 90px;
+    padding: 100px;
+    display: grid;
+    grid-row: 3;
+    
+}
+
+#pagamentos{
+    display:grid;
+    grid-row: 4;
+    grid-column: 3;
+    padding-left: 10px;
+    color: red;
+    padding-top: 10px;
+    font-family: "Gluten", cursive;
+}

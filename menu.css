@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height:  120px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 60px;
+    
+}
+
+#btninicio {
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border: solid 1px white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+    
+}
+
+#btninicio a{
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+    grid-template-rows: 380px 380px;
+    text-align: center;
+    border: solid 1px white;
+    gap: 30px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+#imgyakisobaF{
+    background-color: black;
+    border-radius: 50px;
+    padding-top: 15px;
+}
+
+#descricaoyakisobaF{
+    color: white;
+    font-family: "Gluten", cursive;
+}
+
+#descricaoyakisobaF h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline;
+}
+
+#imghot{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 50px;
+}
+
+#descricaohot{
+    color: white;
+    font-family: "Gluten", cursive;
+}
+
+#descricaohot h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline;
+}
+
+#rolinho{
+    background-color: black;
+    border-radius: 50px;
+    padding-top: 15px; 
+}
+
+#descricaoP h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline;
+}
+
+#descricaoP{
+    color: white;
+    font-family: "Gluten", cursive;
+}
+
+#imgtemaki{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 50px;  
+}
+
+#descricapT h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline; 
+}
+
+#descricaoT h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline; 
+}
+
+#descricaoT{
+    color: white;
+    font-family: "Gluten", cursive;
+}
+
+#sashimi{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 50px; 
+}
+
+#descricaoS h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline; 
+}
+
+#descricaoS{
+    color: white;
+    font-family: "Gluten", cursive;
+}
+
+#barca{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 50px;  
+}
+
+#descricaobarca{
+    color: white;
+    font-family: "Gluten", cursive; 
+}
+
+#descricaobarca h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline; 
+}
+
+#descricaoU{
+    color: white;
+    font-family: "Gluten", cursive; 
+}
+
+#descricaoU h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline;  
+}
+
+#uramaki{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 50px;
+    
+}
+
+#imgH{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 50px; 
+}
+
+#descricaoH h1{
+    color: white;
+    font-family: "Gluten", cursive;
+    text-decoration: underline;
+}
+
+#descricaoH{
+    color: white;
+    font-family: "Gluten", cursive; 
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+        background-color: black;
+        height:  120px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        padding-left: 60px;
+        
+}
+
+main{
+  display: grid;  
+  grid-template-columns: 5fr 4fr ;
+  grid-template-rows: 10px 10px 10px;
+}
+main img{
+    grid-column: 2;
+}
+
+#historia {
+width: 999px;
+height: 850px;
+font-size: 35px;
+padding-top: 120px;
+padding-left: 60px;
+font-family: "Gluten", cursive;
+}
+
+#btninicio{
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border: solid 1px white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+    
+}
+#btninicio a{
+   
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Gluten", cursive; 
+    
+}
+
+#gruposushis img{
+    display: flex;
+    height:700px;
+    width: 450px;
+    padding-left: 80px;
+    padding-top: 110px;
+}
